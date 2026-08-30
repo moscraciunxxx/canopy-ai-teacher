@@ -1,0 +1,111 @@
+1
+00:00:00,000 --> 00:00:03,460
+Most AI tutors stop at a chat box.
+
+2
+00:00:03,460 --> 00:00:08,000
+Canopy gives every learner a living model and an evidence trail.
+
+3
+00:00:08,000 --> 00:00:10,900
+And one teacher that follows the reasoning.
+
+4
+00:00:10,900 --> 00:00:13,600
+Choose any of twenty languages.
+
+5
+00:00:13,600 --> 00:00:18,700
+Canopy translates every control, chart label, feedback message,
+
+6
+00:00:18,700 --> 00:00:22,000
+and source while preserving the learner's place.
+
+7
+00:00:22,000 --> 00:00:26,900
+In physics, change launch speed, angle, gravity, or crosswind.
+
+8
+00:00:26,900 --> 00:00:31,300
+The browser-rendered three-dimensional trajectory, barrier clearance,
+
+9
+00:00:31,300 --> 00:00:34,900
+target landing, and teacher insight update together.
+
+10
+00:00:34,900 --> 00:00:37,600
+Switch subjects without losing context.
+
+11
+00:00:37,600 --> 00:00:41,800
+Here, the learner rotates a DNA helix, changes one base pair,
+
+12
+00:00:41,800 --> 00:00:44,700
+and compares the original strand with its variant.
+
+13
+00:00:44,700 --> 00:00:47,400
+Humanities use different evidence.
+
+14
+00:00:47,400 --> 00:00:51,100
+History filters a source constellation by perspective.
+
+15
+00:00:51,100 --> 00:00:56,700
+Civics traces repeated posts back to original and independent evidence
+
+16
+00:00:56,700 --> 00:00:59,600
+instead of pretending to be a truth machine.
+
+17
+00:00:59,600 --> 00:01:03,700
+The ethics landscape compares outcomes, rights, and uncertainty.
+
+18
+00:01:03,700 --> 00:01:06,900
+It leaves the verdict open.
+
+19
+00:01:06,900 --> 00:01:11,100
+Coach asks for your prediction and names the evidence it can defend.
+
+20
+00:01:11,100 --> 00:01:14,800
+Underneath, a course-specific reasoning graph updates mastery
+
+21
+00:01:14,800 --> 00:01:17,000
+and chooses the next useful move.
+
+22
+00:01:17,000 --> 00:01:21,400
+A provider-neutral adapter can add grounded live dialogue
+
+23
+00:01:21,400 --> 00:01:24,500
+without changing the inspectable curriculum.
+
+24
+00:01:24,500 --> 00:01:26,600
+Learn reveals the model.
+
+25
+00:01:26,600 --> 00:01:28,800
+Remix changes the context.
+
+26
+00:01:28,800 --> 00:01:31,700
+Apply tests transfer through roleplay.
+
+27
+00:01:31,700 --> 00:01:35,800
+Canopy is one AI tutor you can inspect.
+
+28
+00:01:35,800 --> 00:01:40,700
+It covers nine subjects and twenty languages in an ordinary browser.

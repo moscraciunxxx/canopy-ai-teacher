@@ -1,0 +1,6 @@
+# Required runtime dependency
+streamlit>=1.32,<2.0
+plotly>=6.0,<7.0
+
+# Optional live-provider SDKs are intentionally not installed here.  The
+# generic HTTP adapter in src.provider keeps the default install small.

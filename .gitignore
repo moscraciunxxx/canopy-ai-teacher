@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+env/
+.env
+.DS_Store
+.streamlit/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+
+# Generated contest media stays local; only scripts/storyboards are publishable.
+demo/captures/
+demo/renders/
+demo/output/
+demo/*.mov
+demo/*.mp4
+demo/*.wav

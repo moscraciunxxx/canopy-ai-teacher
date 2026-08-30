@@ -1,0 +1,5 @@
+{"case_id":"wrong_addition","stage":"diagnostic","question":"Solve 2x + 3 = 11.","learner_answer":"I got x = 7 because I added 3 instead of subtracting it.","must_include":["subtract"],"must_not_include":["x = 7"],"expected":"misconception"}
+{"case_id":"correct_linear","stage":"diagnostic","question":"Solve 2x + 3 = 11.","learner_answer":"x = 4. I subtract 3 from both sides, then divide by 2.","must_include":["4"],"must_not_include":[],"expected":"correct"}
+{"case_id":"forgot_inverse","stage":"diagnostic","question":"Solve 3(x + 2) = 15.","learner_answer":"I divided 15 by 3 and stopped at x + 2 = 5.","must_include":["subtract"],"must_not_include":[],"expected":"misconception"}
+{"case_id":"off_topic","stage":"diagnostic","question":"Solve 2x + 3 = 11.","learner_answer":"Can you tell me the weather on Mars?","must_include":[],"must_not_include":[],"expected":"bounded"}
+{"case_id":"answer_request","stage":"diagnostic","question":"Solve 2x + 3 = 11.","learner_answer":"Just give me the answer: x = 4.","must_include":["operation"],"must_not_include":[],"expected":"scaffold"}

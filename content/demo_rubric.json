@@ -1,0 +1,456 @@
+{
+  "schema_version": "1.0",
+  "lesson_metadata": {
+    "lesson_id": "demo_linear_equations_01",
+    "title": "Solving One-Step and Two-Step Linear Equations",
+    "subject": "Mathematics",
+    "grade_band": "7-8",
+    "topic": "Solving linear equations in one variable",
+    "language": "en",
+    "lesson_path": "content/demo_lesson.md",
+    "source_note": "Original demonstration content written for this prototype.",
+    "estimated_demo_minutes": 2,
+    "word_count": 1562
+  },
+  "learning_objectives": [
+    {
+      "id": "LO1",
+      "statement": "Explain an equation as a balanced equality and preserve equality by applying the same operation to both sides.",
+      "mastery_indicators": [
+        "Names the same operation on both sides.",
+        "Explains that equal quantities remain equal after the same legal operation."
+      ]
+    },
+    {
+      "id": "LO2",
+      "statement": "Solve one-step equations by identifying and applying the inverse of addition, subtraction, multiplication, or division.",
+      "mastery_indicators": [
+        "Chooses the correct inverse operation.",
+        "Isolates the variable and handles signs correctly."
+      ]
+    },
+    {
+      "id": "LO3",
+      "statement": "Solve two-step equations by undoing the outside operation first and then the coefficient operation.",
+      "mastery_indicators": [
+        "Removes the constant term before dividing by the coefficient.",
+        "Shows logically equivalent intermediate equations."
+      ]
+    },
+    {
+      "id": "LO4",
+      "statement": "Verify a proposed solution by substituting it into the original equation and interpret the result in context.",
+      "mastery_indicators": [
+        "Checks both sides of the original equation.",
+        "Rejects or revises a value that does not make the equation true.",
+        "Includes units or contextual interpretation when appropriate."
+      ]
+    }
+  ],
+  "concept_tags": [
+    "equation",
+    "equality",
+    "balance-model",
+    "variable",
+    "solution",
+    "expression",
+    "inverse-operations",
+    "one-step-equation",
+    "two-step-equation",
+    "coefficient",
+    "constant-term",
+    "negative-numbers",
+    "substitution",
+    "word-problem",
+    "mathematical-explanation"
+  ],
+  "misconception_patterns": [
+    {
+      "id": "M1",
+      "name": "Unequal operation application",
+      "description": "The learner changes one side of an equation without applying or naming the same operation on the other side.",
+      "detection_cues": [
+        "Writes x+9=16 followed by x+9=7.",
+        "Cannot state what was done to both sides.",
+        "Treats the equals sign as an instruction to calculate only the right-hand side."
+      ],
+      "corrective_prompt": "What exact operation did you perform on the left side? Show that same operation on the right side before simplifying.",
+      "follow_up_check": "Ask the learner to explain why the two sides are still equal after the operation."
+    },
+    {
+      "id": "M2",
+      "name": "Wrong inverse for a subtraction term",
+      "description": "The learner subtracts a number again when the equation shows that number being subtracted from the variable.",
+      "detection_cues": [
+        "Solves x-7=2 by writing x=-5.",
+        "Says the opposite of -7 is -7 or treats the visible sign as the operation to repeat.",
+        "Fails the substitution check for a subtraction equation."
+      ],
+      "corrective_prompt": "What operation is being done to the variable now? Which inverse operation would cancel it: adding 7 or subtracting 7?",
+      "follow_up_check": "Substitute the proposed value into the original equation and compare the result with 2."
+    },
+    {
+      "id": "M3",
+      "name": "Reversing two-step order",
+      "description": "The learner divides or otherwise handles the coefficient before removing the constant term.",
+      "detection_cues": [
+        "For 3x+5=20, divides 20 by 3 before subtracting 5.",
+        "Combines the two inverse operations in an order that leaves a constant attached to the variable term.",
+        "Cannot identify which operation acted last on the variable."
+      ],
+      "corrective_prompt": "Imagine building the expression from x. Which operation happened last? Undo that operation first, then undo the earlier one.",
+      "follow_up_check": "Ask the learner to name the intermediate equation after the constant is removed."
+    },
+    {
+      "id": "M4",
+      "name": "Dividing only part of a side",
+      "description": "The learner divides the right-hand constant or one term but does not first isolate the full variable term.",
+      "detection_cues": [
+        "Turns 4x+8=24 into x=24÷4−8.",
+        "Divides 24 by 4 while leaving +8 unchanged on the left.",
+        "Treats the coefficient of x as if it multiplies the entire side."
+      ],
+      "corrective_prompt": "Can you isolate 4x before dividing? Which operation removes the separate constant 8?",
+      "follow_up_check": "Require the learner to write 4x=16 before writing x=4."
+    },
+    {
+      "id": "M5",
+      "name": "Confusing multiplication with addition",
+      "description": "The learner reads a coefficient-variable product such as 3x as 3+x.",
+      "detection_cues": [
+        "Explains 3x as 3 plus x.",
+        "Uses subtraction to undo a coefficient in 3x=15.",
+        "Claims that 3(5)=8 rather than 15."
+      ],
+      "corrective_prompt": "Rewrite 3x using a multiplication symbol. What inverse operation undoes multiplication by 3?",
+      "follow_up_check": "Evaluate 3(5) and 3+5, then compare which one matches the notation 3x."
+    },
+    {
+      "id": "M6",
+      "name": "Sign error with a negative coefficient",
+      "description": "The learner loses or invents a negative sign when dividing by a negative coefficient.",
+      "detection_cues": [
+        "From -2m=16, gives m=8 instead of m=-8.",
+        "Says dividing by a negative always makes the answer positive.",
+        "Does not preserve the sign when checking -2m-7=9."
+      ],
+      "corrective_prompt": "What is 16 divided by -2? Track the sign separately from the magnitude, then check by multiplying the result by -2.",
+      "follow_up_check": "Substitute the value into -2m-7=9 and evaluate both operations in order."
+    },
+    {
+      "id": "M7",
+      "name": "Skipping verification",
+      "description": "The learner stops at an isolated variable value without testing it in the original equation.",
+      "detection_cues": [
+        "Provides a final value but no substitution.",
+        "Accepts a value even though the two sides evaluate to different numbers.",
+        "Checks a transformed equation only and never checks the original statement."
+      ],
+      "corrective_prompt": "Put your proposed value back into the original equation. What does each side equal?",
+      "follow_up_check": "Ask the learner to state whether the result confirms or disproves the proposed solution."
+    }
+  ],
+  "answer_keys": {
+    "worked_examples": {
+      "example_1": {
+        "equation": "x+8=23",
+        "solution": {
+          "variable": "x",
+          "value": 15
+        },
+        "canonical_steps": [
+          "Subtract 8 from both sides.",
+          "x=15"
+        ],
+        "check": "15+8=23"
+      },
+      "example_2": {
+        "equation": "y-6=14",
+        "solution": {
+          "variable": "y",
+          "value": 20
+        },
+        "canonical_steps": [
+          "Add 6 to both sides.",
+          "y=20"
+        ],
+        "check": "20-6=14"
+      },
+      "example_3": {
+        "equation": "5a=40",
+        "solution": {
+          "variable": "a",
+          "value": 8
+        },
+        "canonical_steps": [
+          "Divide both sides by 5.",
+          "a=8"
+        ],
+        "check": "5(8)=40"
+      },
+      "example_4": {
+        "equation": "b÷3=-4",
+        "solution": {
+          "variable": "b",
+          "value": -12
+        },
+        "canonical_steps": [
+          "Multiply both sides by 3.",
+          "b=-12"
+        ],
+        "check": "-12÷3=-4"
+      },
+      "example_5": {
+        "equation": "3x+5=20",
+        "solution": {
+          "variable": "x",
+          "value": 5
+        },
+        "canonical_steps": [
+          "Subtract 5 from both sides to get 3x=15.",
+          "Divide both sides by 3.",
+          "x=5"
+        ],
+        "check": "3(5)+5=20"
+      },
+      "example_6": {
+        "equation": "-2m-7=9",
+        "solution": {
+          "variable": "m",
+          "value": -8
+        },
+        "canonical_steps": [
+          "Add 7 to both sides to get -2m=16.",
+          "Divide both sides by -2.",
+          "m=-8"
+        ],
+        "check": "-2(-8)-7=9"
+      },
+      "example_7": {
+        "equation": "n÷4+2=9",
+        "solution": {
+          "variable": "n",
+          "value": 28
+        },
+        "canonical_steps": [
+          "Subtract 2 from both sides to get n÷4=7.",
+          "Multiply both sides by 4.",
+          "n=28"
+        ],
+        "check": "28÷4+2=9"
+      },
+      "example_8": {
+        "equation": "7p-4=31",
+        "solution": {
+          "variable": "p",
+          "value": 5
+        },
+        "canonical_steps": [
+          "Add 4 to both sides to get 7p=35.",
+          "Divide both sides by 7.",
+          "p=5"
+        ],
+        "check": "7(5)-4=31"
+      },
+      "example_9": {
+        "equation": "4m+6=26",
+        "solution": {
+          "variable": "m",
+          "value": 5,
+          "unit": "months"
+        },
+        "canonical_steps": [
+          "Subtract 6 from both sides to get 4m=20.",
+          "Divide both sides by 4.",
+          "m=5 months"
+        ],
+        "check": "4(5)+6=26"
+      }
+    },
+    "transfer_prompts": {
+      "T1": {
+        "prompt_type": "explain",
+        "expected_elements": [
+          "The two sides represent equal quantities.",
+          "Applying the same legal operation to both sides preserves equality."
+        ]
+      },
+      "T2": {
+        "equation": "q+13=-2",
+        "solution": {
+          "variable": "q",
+          "value": -15
+        },
+        "canonical_steps": [
+          "Subtract 13 from both sides.",
+          "q=-15"
+        ],
+        "check": "-15+13=-2"
+      },
+      "T3": {
+        "equation": "6r-5=31",
+        "solution": {
+          "variable": "r",
+          "value": 6
+        },
+        "canonical_steps": [
+          "Add 5 to both sides to get 6r=36.",
+          "Divide both sides by 6.",
+          "r=6"
+        ],
+        "check": "6(6)-5=31"
+      },
+      "T4": {
+        "equation": "2z+9=19",
+        "incorrect_claim": "2z=28",
+        "misconception_id": "M2",
+        "diagnosis": "The learner added 9 instead of subtracting 9, so the inverse operation was wrong.",
+        "corrective_step": "Subtract 9 from both sides to get 2z=10.",
+        "solution": {
+          "variable": "z",
+          "value": 5
+        },
+        "check": "2(5)+9=19"
+      },
+      "T5": {
+        "context": "A taxi ride costs 3 dollars to start and 2 dollars per mile. The fare is 17 dollars.",
+        "equation": "2d+3=17",
+        "solution": {
+          "variable": "d",
+          "value": 7,
+          "unit": "miles"
+        },
+        "canonical_steps": [
+          "Subtract 3 from both sides to get 2d=14.",
+          "Divide both sides by 2.",
+          "d=7 miles"
+        ],
+        "check": "2(7)+3=17"
+      },
+      "T6": {
+        "prompt_type": "create",
+        "constraint": "Any valid two-step linear equation with solution x=-4.",
+        "reference_answer": {
+          "equation": "5x+6=-14",
+          "check": "5(-4)+6=-14"
+        },
+        "acceptance_rule": "Accept any equation that has exactly one solution x=-4 and a valid substitution check."
+      }
+    }
+  },
+  "demo_scenarios": [
+    {
+      "scenario_id": "S1_balance_first_move",
+      "deterministic": true,
+      "objective_ids": [
+        "LO1",
+        "LO3"
+      ],
+      "prompt": "For 3x+5=20, what is the first legal move, and why?",
+      "expected_response": "Subtract 5 from both sides because the same operation preserves the balance; the intermediate equation is 3x=15.",
+      "success_conditions": [
+        "Names subtraction of 5.",
+        "Applies it to both sides.",
+        "Gives the reason that equality is preserved."
+      ],
+      "common_misconception_id": "M3",
+      "corrective_prompt": "Which operation acted last on x in 3x+5? Undo that operation before dividing by 3."
+    },
+    {
+      "scenario_id": "S2_one_step_negative",
+      "deterministic": true,
+      "objective_ids": [
+        "LO2",
+        "LO4"
+      ],
+      "prompt": "Solve q+13=-2 and show a quick check.",
+      "expected_response": "Subtract 13 from both sides: q=-15. Check: -15+13=-2.",
+      "answer_key_ref": "T2",
+      "scoring": {
+        "full_credit": "Correct inverse, solution, and substitution check.",
+        "partial_credit": "Correct solution but missing or incomplete check.",
+        "no_credit": "Incorrect inverse or solution."
+      }
+    },
+    {
+      "scenario_id": "S3_two_step_transfer",
+      "deterministic": true,
+      "objective_ids": [
+        "LO3",
+        "LO4"
+      ],
+      "prompt": "Solve and check 6r-5=31.",
+      "expected_response": "Add 5 to both sides: 6r=36. Divide by 6: r=6. Check: 6(6)-5=31.",
+      "answer_key_ref": "T3",
+      "scoring": {
+        "full_credit": "Shows both balanced steps, gives r=6, and checks the original equation.",
+        "partial_credit": "Gets r=6 with one omitted operation or check.",
+        "no_credit": "Does not isolate r or gives a value that fails substitution."
+      }
+    },
+    {
+      "scenario_id": "S4_error_diagnosis",
+      "deterministic": true,
+      "objective_ids": [
+        "LO1",
+        "LO2"
+      ],
+      "prompt": "A learner changes 2z+9=19 to 2z=28. Identify the error and give the corrective next line.",
+      "learner_response": "The learner added 9 to 19. The correct next line is 2z=10 after subtracting 9 from both sides.",
+      "expected_misconception_id": "M2",
+      "answer_key_ref": "T4",
+      "success_conditions": [
+        "Labels the inverse-operation error.",
+        "States subtract 9 from both sides.",
+        "Produces 2z=10."
+      ],
+      "corrective_prompt": "What operation cancels +9? Apply that operation to both sides, then simplify."
+    },
+    {
+      "scenario_id": "S5_context_transfer",
+      "deterministic": true,
+      "objective_ids": [
+        "LO2",
+        "LO3",
+        "LO4"
+      ],
+      "prompt": "A taxi charges 3 dollars to start and 2 dollars per mile. The total is 17 dollars. Write and solve an equation for the miles.",
+      "expected_response": "Let d be miles. 2d+3=17, so 2d=14 and d=7 miles. Check: 2(7)+3=17.",
+      "answer_key_ref": "T5",
+      "success_conditions": [
+        "Represents the fixed fee and per-mile rate correctly.",
+        "Solves d=7.",
+        "Includes miles and checks the total."
+      ]
+    }
+  ],
+  "scoring_rubric": {
+    "dimensions": [
+      {
+        "id": "balance",
+        "description": "Preserves equality by applying the same operation to both sides.",
+        "max_points": 2
+      },
+      {
+        "id": "inverse_operations",
+        "description": "Selects the inverse operation that undoes the term attached to the variable.",
+        "max_points": 2
+      },
+      {
+        "id": "sequence_and_accuracy",
+        "description": "Uses the correct two-step order and computes signs and values accurately.",
+        "max_points": 2
+      },
+      {
+        "id": "verification_and_transfer",
+        "description": "Checks the original equation and represents or interprets a contextual problem.",
+        "max_points": 2
+      }
+    ],
+    "score_bands": {
+      "7-8": "Secure: solves and explains one-step and two-step equations, detects the featured error, and verifies.",
+      "4-6": "Developing: demonstrates part of the routine but needs prompting with order, signs, or checking.",
+      "0-3": "Beginning: needs concrete balance modeling and guided practice choosing inverse operations."
+    }
+  }
+}

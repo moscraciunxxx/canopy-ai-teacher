@@ -1,5 +1,7 @@
 # YouTube publication copy
 
+Published at https://youtu.be/VyyJqFhyBb4
+
 ## Title
 
 Canopy — One AI Teacher Across 9 Subjects and 20 Languages | 2-Minute Demo
@@ -18,12 +20,13 @@ In this two-minute walkthrough:
 - rotate and edit a DNA helix;
 - compare historical perspectives and civic evidence flows;
 - explore ethical trade-offs without outsourcing the verdict;
-- move from Coach to Learn, Variations, and Apply/Roleplay;
+- move from Coach to Learn, Remix, and Apply/Roleplay;
 - switch languages without losing the learner's course state.
 
-Interactive demo: to be added after deployment
-
 Source code: https://github.com/moscraciunxxx/canopy-ai-teacher
+
+Run the interactive app locally from the public repository—no high-end GPU is
+required.
 
 Built with Python, Streamlit, Plotly, HTML/CSS/SVG, Unicode BCP 47, Docker,
 pytest, Ruff, and mypy.

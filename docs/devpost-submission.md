@@ -33,7 +33,7 @@ The same teacher then carries that context through four modes:
 
 - Coach asks for a prediction and diagnoses the learner's reasoning.
 - Learn reveals an inspectable explanation one layer at a time.
-- Variations remixes the skill into a new representation or context.
+- Remix moves the skill into a new representation or context.
 - Apply transfers the idea and ends with bounded roleplay.
 
 The entire experience—including charts, hover labels, diagrams, controls,
@@ -108,6 +108,6 @@ Ruff, and mypy.
 
 ## Links
 
-- Interactive demo: to be added after deployment
-- Source code: to be added after GitHub publication
-- Two-minute demo: to be added after YouTube publication
+- Interactive app: run locally from the public source repository
+- Source code: https://github.com/moscraciunxxx/canopy-ai-teacher
+- Two-minute demo: https://youtu.be/VyyJqFhyBb4

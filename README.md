@@ -11,6 +11,8 @@ nodes, 27 transfer missions, and nine course-native visual laboratories.
 Progress, notes, recent learning signals, and mastery are preserved separately
 for every course during a session.
 
+**Watch the 1:41 demo:** https://youtu.be/VyyJqFhyBb4
+
 ## Twenty-language learning mode
 
 Language is an independent learner preference: switching it does not reset the

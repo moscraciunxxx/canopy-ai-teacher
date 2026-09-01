@@ -1,0 +1,63 @@
+1
+00:00:00,000 --> 00:00:04,218
+Education does not need another answer box.
+
+2
+00:00:04,218 --> 00:00:09,640
+Canopy turns nine subjects into visible, interactive reasoning journeys.
+
+3
+00:00:09,880 --> 00:00:15,127
+A six-stage constellation moves from observation to modeling and validation.
+
+4
+00:00:15,127 --> 00:00:21,423
+The final stage transfers knowledge while one teacher preserves the learner's context.
+
+5
+00:00:21,663 --> 00:00:24,460
+Switch to Romanian or Arabic.
+
+6
+00:00:24,460 --> 00:00:32,850
+Twenty languages translate the full learning surface, and right-to-left layout keeps scientific models correctly oriented.
+
+7
+00:00:33,090 --> 00:00:34,744
+A learner explains.
+
+8
+00:00:34,744 --> 00:00:44,673
+Canopy reveals evidence, confidence, a misconception hypothesis, mastery, and the next question instead of hiding behind a score.
+
+9
+00:00:44,913 --> 00:00:52,487
+Its optional multilingual model can run inside the browser using Web G P U or Web Assembly.
+
+10
+00:00:52,487 --> 00:00:57,833
+The inspectable local rubric remains available without an account or API key.
+
+11
+00:00:58,073 --> 00:01:01,419
+Teachers paste their material into Course Forge.
+
+12
+00:01:01,419 --> 00:01:08,113
+Canopy extracts six editable stages locally and requires teacher review before anything is saved.
+
+13
+00:01:08,353 --> 00:01:20,516
+The evidence view reports only observed interactions: explanation quality, recovery time, and a course heatmap, never invented pilot results.
+
+14
+00:01:20,756 --> 00:01:28,386
+The device-local learner model keeps mastery, misconceptions, spaced review, and portable exports.
+
+15
+00:01:28,386 --> 00:01:35,379
+Voice, screen-reader announcements, contrast, dyslexia-friendly type, and reduced motion widen access.
+
+16
+00:01:35,619 --> 00:01:47,999
+Canopy ends with transfer: one accountable AI teacher across school science and the humanities, ready now in an ordinary browser.

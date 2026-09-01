@@ -16,6 +16,9 @@ env/
 demo/captures/
 demo/renders/
 demo/output/
+demo/v2-captures/
+demo/v2-renders/
+demo/v2-output/
 demo/*.mov
 demo/*.mp4
 demo/*.wav

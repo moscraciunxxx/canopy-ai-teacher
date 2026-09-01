@@ -1,0 +1,9 @@
+Education does not need another answer box. Canopy turns nine subjects into visible, interactive reasoning journeys.
+A six-stage constellation moves from observation to modeling and validation. The final stage transfers knowledge while one teacher preserves the learner's context.
+Switch to Romanian or Arabic. Twenty languages translate the full learning surface, and right-to-left layout keeps scientific models correctly oriented.
+A learner explains. Canopy reveals evidence, confidence, a misconception hypothesis, mastery, and the next question instead of hiding behind a score.
+Its optional multilingual model can run inside the browser using Web G P U or Web Assembly. The inspectable local rubric remains available without an account or API key.
+Teachers paste their material into Course Forge. Canopy extracts six editable stages locally and requires teacher review before anything is saved.
+The evidence view reports only observed interactions: explanation quality, recovery time, and a course heatmap, never invented pilot results.
+The device-local learner model keeps mastery, misconceptions, spaced review, and portable exports. Voice, screen-reader announcements, contrast, dyslexia-friendly type, and reduced motion widen access.
+Canopy ends with transfer: one accountable AI teacher across school science and the humanities, ready now in an ordinary browser.

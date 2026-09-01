@@ -1,0 +1,116 @@
+{
+  "duration": 107.999,
+  "pause_seconds": 0.24,
+  "narration": "/Volumes/Seagate/Coding Compete/projects/SPEED AI August Challenge/demo/v2-renders/canopy-v2-narration.wav",
+  "final_heard": "Education does not need another answer box. Canopy turns nine subjects into visible interactive reasoning journeys. The sixth stage constellation moves from observation to modeling and validation. The final stage transfers knowledge while one teacher preserves the learner's context, switch to Romanian or Arabic. Twenty languages translate the full learning surface and right to left layout keep scientific models correctly oriented. The learner explains, Canopy reveals evidence, confidence, a misconception, hypothesis, mastery, and the next question instead of hiding behind a score. Its optional multilingual model can run inside the browser using web GPU or web assembly. The inspectable local rubric remains available without an account or API key. Teachers paste their material into course forge. Canopy extracts six editable stages locally and requires teacher review before anything is saved. The evidence view reports only observed interactions, explanation quality, recovery time, and a course heat map. Never invented pilot results. The device local learner model keeps mastery, misconceptions, spaced review, unportable, exports. Voice screen reader announcements, contrast dyslexia friendly type, and reduced motion-wide access. Canopy ends with transfer. One accountable AI teacher across school science and the humanities, ready now in an ordinary browser.",
+  "beats": [
+    {
+      "beat": 1,
+      "line": "Education does not need another answer box. Canopy turns nine subjects into visible, interactive reasoning journeys.",
+      "heard": "Education does not need another answer box. Canopy turns nine subjects into visible interactive reasoning journeys.",
+      "coverage": 1.0,
+      "duration": 9.64,
+      "start": 0.0,
+      "end": 9.64,
+      "sample_rate": 48000,
+      "engine": "spark+adapter",
+      "listen_voice": true
+    },
+    {
+      "beat": 2,
+      "line": "A six-stage constellation moves from observation to modeling and validation. The final stage transfers knowledge while one teacher preserves the learner's context.",
+      "heard": "A 6th stage constellation moves from observation to modeling and validation. The final stage transfers knowledge while one teacher preserves the learner's context.",
+      "coverage": 0.933,
+      "duration": 11.543,
+      "start": 9.88,
+      "end": 21.423,
+      "sample_rate": 48000,
+      "engine": "spark+adapter",
+      "listen_voice": true
+    },
+    {
+      "beat": 3,
+      "line": "Switch to Romanian or Arabic. Twenty languages translate the full learning surface, and right-to-left layout keeps scientific models correctly oriented.",
+      "heard": "Switch to Romanian or Arabic. 20 languages translate the full learning surface and right to left layout keeps scientific models correctly oriented.",
+      "coverage": 0.867,
+      "duration": 11.186,
+      "start": 21.663,
+      "end": 32.85,
+      "sample_rate": 48000,
+      "engine": "spark+adapter",
+      "listen_voice": true
+    },
+    {
+      "beat": 4,
+      "line": "A learner explains. Canopy reveals evidence, confidence, a misconception hypothesis, mastery, and the next question instead of hiding behind a score.",
+      "heard": "A learner explains, Canopy reveals evidence, confidence, a misconception, hypothesis, mastery, and the next question instead of hiding behind a score.",
+      "coverage": 1.0,
+      "duration": 11.583,
+      "start": 33.09,
+      "end": 44.673,
+      "sample_rate": 48000,
+      "engine": "spark+adapter",
+      "listen_voice": true
+    },
+    {
+      "beat": 5,
+      "line": "Its optional multilingual model can run inside the browser using Web G P U or Web Assembly. The inspectable local rubric remains available without an account or API key.",
+      "heard": "Its optional multilingual model can run inside the browser using webGPU or webAssembly. The inspectable local rubric remains available without an account or API key.",
+      "coverage": 0.929,
+      "duration": 12.92,
+      "start": 44.913,
+      "end": 57.833,
+      "sample_rate": 48000,
+      "engine": "spark+adapter",
+      "listen_voice": true
+    },
+    {
+      "beat": 6,
+      "line": "Teachers paste their material into Course Forge. Canopy extracts six editable stages locally and requires teacher review before anything is saved.",
+      "heard": "Teachers paste their material into course forge. Canopy extracts six editable stages locally and requires teacher review before anything is saved.",
+      "coverage": 1.0,
+      "duration": 10.04,
+      "start": 58.073,
+      "end": 68.113,
+      "sample_rate": 48000,
+      "engine": "spark+adapter",
+      "listen_voice": true
+    },
+    {
+      "beat": 7,
+      "line": "The evidence view reports only observed interactions: explanation quality, recovery time, and a course heatmap, never invented pilot results.",
+      "heard": "The evidence view reports only observed interactions, explanation quality, recovery time and a course heatmap never invented pilot results.",
+      "coverage": 1.0,
+      "duration": 12.163,
+      "start": 68.353,
+      "end": 80.516,
+      "sample_rate": 48000,
+      "engine": "spark+adapter",
+      "listen_voice": true
+    },
+    {
+      "beat": 8,
+      "line": "The device-local learner model keeps mastery, misconceptions, spaced review, and portable exports. Voice, screen-reader announcements, contrast, dyslexia-friendly type, and reduced motion widen access.",
+      "heard": "The device local learner model keeps mastery, misconceptions, spaced review, and portable exports. Voice, screen reader announcements, contrast, dyslexia friendly type, and reduced motion widen access.",
+      "coverage": 0.842,
+      "duration": 14.623,
+      "start": 80.756,
+      "end": 95.379,
+      "sample_rate": 48000,
+      "engine": "spark+adapter",
+      "listen_voice": true
+    },
+    {
+      "beat": 9,
+      "line": "Canopy ends with transfer: one accountable AI teacher across school science and the humanities, ready now in an ordinary browser.",
+      "heard": "and canopy ends with transfer. One accountable AI teacher across school, science, and the humanities, ready now in an ordinary browser.",
+      "coverage": 1.0,
+      "duration": 12.38,
+      "start": 95.619,
+      "end": 107.999,
+      "sample_rate": 48000,
+      "engine": "spark+adapter",
+      "listen_voice": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[0:v]scale=1980:1114:force_original_aspect_ratio=increase,crop=1920:1080:x='(iw-ow)/2+18*sin(t/4)':y='(ih-oh)/2+10*cos(t/5)',fps=30,trim=duration=9.880,setpts=PTS-STARTPTS[v0];
+[1:v]scale=1980:1114:force_original_aspect_ratio=increase,crop=1920:1080:x='(iw-ow)/2-18*sin(t/4)':y='(ih-oh)/2-10*cos(t/5)',fps=30,trim=duration=11.783,setpts=PTS-STARTPTS[v1];
+[2:v]scale=1980:1114:force_original_aspect_ratio=increase,crop=1920:1080:x='(iw-ow)/2+18*sin(t/4)':y='(ih-oh)/2-10*cos(t/5)',fps=30,trim=duration=5.713,setpts=PTS-STARTPTS[v2];
+[3:v]scale=1980:1114:force_original_aspect_ratio=increase,crop=1920:1080:x='(iw-ow)/2-18*sin(t/4)':y='(ih-oh)/2+10*cos(t/5)',fps=30,trim=duration=5.713,setpts=PTS-STARTPTS[v3];
+[4:v]scale=1980:1114:force_original_aspect_ratio=increase,crop=1920:1080:x='(iw-ow)/2+18*sin(t/4)':y='(ih-oh)/2-10*cos(t/5)',fps=30,trim=duration=11.823,setpts=PTS-STARTPTS[v4];
+[5:v]scale=1980:1114:force_original_aspect_ratio=increase,crop=1920:1080:x='(iw-ow)/2-18*sin(t/4)':y='(ih-oh)/2-10*cos(t/5)',fps=30,trim=duration=13.160,setpts=PTS-STARTPTS[v5];
+[6:v]scale=1980:1114:force_original_aspect_ratio=increase,crop=1920:1080:x='(iw-ow)/2+18*sin(t/4)':y='(ih-oh)/2+10*cos(t/5)',fps=30,trim=duration=10.280,setpts=PTS-STARTPTS[v6];
+[7:v]scale=1980:1114:force_original_aspect_ratio=increase,crop=1920:1080:x='(iw-ow)/2-18*sin(t/4)':y='(ih-oh)/2-10*cos(t/5)',fps=30,trim=duration=12.403,setpts=PTS-STARTPTS[v7];
+[8:v]scale=1980:1114:force_original_aspect_ratio=increase,crop=1920:1080:x='(iw-ow)/2+18*sin(t/4)':y='(ih-oh)/2-10*cos(t/5)',fps=30,trim=duration=7.431,setpts=PTS-STARTPTS[v8];
+[9:v]scale=1980:1114:force_original_aspect_ratio=increase,crop=1920:1080:x='(iw-ow)/2-18*sin(t/4)':y='(ih-oh)/2+10*cos(t/5)',fps=30,trim=duration=7.431,setpts=PTS-STARTPTS[v9];
+[10:v]scale=1980:1114:force_original_aspect_ratio=increase,crop=1920:1080:x='(iw-ow)/2+18*sin(t/4)':y='(ih-oh)/2-10*cos(t/5)',fps=30,trim=duration=12.380,setpts=PTS-STARTPTS[v10];
+[v0][v1][v2][v3][v4][v5][v6][v7][v8][v9][v10]concat=n=11:v=1:a=0,setsar=1,fade=t=in:st=0:d=0.35,fade=t=out:st=107.648:d=0.35,subtitles='demo/v2-captions.srt':force_style='FontName=Helvetica,FontSize=17,PrimaryColour=&H00FFFFFF,OutlineColour=&H70101A21,BackColour=&H70101A21,BorderStyle=3,Outline=1,Shadow=0,MarginV=36,Alignment=2'[video]

@@ -120,4 +120,4 @@ Ruff, and mypy.
 
 - Account-free live app: https://canopy-ai-teacher.moscraciuncv.chatgpt.site
 - Source code: https://github.com/moscraciunxxx/canopy-ai-teacher
-- Two-minute demo: https://youtu.be/VyyJqFhyBb4
+- Two-minute demo: https://youtu.be/utC-14IU2is

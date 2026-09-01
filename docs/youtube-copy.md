@@ -25,8 +25,10 @@ In this two-minute walkthrough:
 
 Source code: https://github.com/moscraciunxxx/canopy-ai-teacher
 
-Run the interactive app locally from the public repository—no high-end GPU is
-required.
+Try the account-free live app:
+https://canopy-ai-teacher.moscraciuncv.chatgpt.site
+
+No Streamlit account, sign-in, API key, or high-end GPU is required.
 
 Built with Python, Streamlit, Plotly, HTML/CSS/SVG, Unicode BCP 47, Docker,
 pytest, Ruff, and mypy.

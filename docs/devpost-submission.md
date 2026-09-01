@@ -56,6 +56,12 @@ stateful teacher, semantic HTML/CSS/SVG supplies the interaction design, and
 Unicode BCP 47 locale packs provide deterministic multilingual presentation.
 Docker packaging and a 26-test contract suite make the project reproducible.
 
+The public judge companion adds a private on-device multilingual embedding
+model with WebGPU and WASM execution, a deterministic Unicode fallback,
+evidence-backed confidence disclosures, an editable six-stage Course Forge,
+device-local learner history, spaced review, honest pre/post evidence, and
+multimodal accessibility. It needs no Streamlit account, sign-in, or API key.
+
 ## Challenges we ran into
 
 The hardest challenge was keeping nine subjects genuinely different while
@@ -78,8 +84,12 @@ every locale.
 - Twenty end-to-end learning languages with RTL support.
 - A teacher that preserves context across course, language, model, and mode.
 - Inspectable feedback that names evidence signals and uncertainty.
-- Browser-rendered interaction with no model download or high-end GPU required.
-- A clean quality gate: lint, static typing, 26 tests, and 5/5 evaluation cases.
+- An account-free public judge app with private WebGPU/WASM semantic retrieval
+  and a deterministic fallback.
+- A teacher-reviewed Course Forge, persistent learner model, spaced review,
+  honest evidence dashboard, voice, and accessibility modes.
+- A clean quality gate: lint, static typing, 26 Python tests, 9 browser contract
+  tests, and 5/5 evaluation cases.
 
 ## What we learned
 
@@ -95,19 +105,19 @@ matching.
 
 ## What's next for Canopy
 
-Next we would add teacher-authored course packs, persistent student accounts,
-native-speaker review workflows, classroom analytics, accessibility studies,
-and controlled learning-impact evaluations. The provider adapter can then add
-grounded live dialogue while the inspectable curriculum graph remains the
-source of truth.
+Next we would run native-speaker reviews and a real learner pilot, calibrate
+semantic thresholds by language and subject, add opt-in school-managed sync,
+and conduct controlled learning-impact and accessibility studies. The current
+app deliberately reports only evidence observed on the learner's device.
 
 ## Built with
 
-Python, Streamlit, Plotly, HTML, CSS, SVG, Unicode BCP 47, Docker, pytest,
+Python, Streamlit, Plotly, React, TypeScript, Transformers.js, ONNX, WebGPU,
+WASM, HTML, CSS, SVG, Unicode BCP 47, localStorage, Docker, pytest, Vitest,
 Ruff, and mypy.
 
 ## Links
 
-- Interactive app: run locally from the public source repository
+- Account-free live app: https://canopy-ai-teacher.moscraciuncv.chatgpt.site
 - Source code: https://github.com/moscraciunxxx/canopy-ai-teacher
 - Two-minute demo: https://youtu.be/VyyJqFhyBb4

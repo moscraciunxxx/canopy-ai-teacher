@@ -13,6 +13,8 @@ for every course during a session.
 
 **Watch the 1:41 demo:** https://youtu.be/VyyJqFhyBb4
 
+**Try the account-free live app:** https://canopy-ai-teacher.moscraciuncv.chatgpt.site
+
 ## Account-free judge companion
 
 `canopy-web/` is a public-demo companion built for judges who should not need a

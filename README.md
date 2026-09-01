@@ -13,6 +13,48 @@ for every course during a session.
 
 **Watch the 1:41 demo:** https://youtu.be/VyyJqFhyBb4
 
+## Account-free judge companion
+
+`canopy-web/` is a public-demo companion built for judges who should not need a
+Streamlit Cloud account, an API key, or a high-end device. It preserves the
+original Streamlit academy while adding six competition-grade capabilities:
+
+- Private multilingual semantic retrieval in the browser, with WebGPU → WASM
+  → deterministic fallback and a visible runtime badge.
+- Inspectable diagnosis showing the evidence, confidence reasons, limitation,
+  misconception hypothesis, mastery signal, and next action.
+- An on-device Course Forge that converts pasted teacher notes into an editable
+  six-stage draft; every generated course is explicitly teacher-reviewed.
+- Honest pre/post explanation measures, misconception-recovery time, usability
+  rating, and a teacher course heatmap—without fabricated pilot claims.
+- A versioned device-local learner model with mastery history, spaced review,
+  misconception timeline, next lesson, and validated JSON/CSV portability.
+- Voice input/output, keyboard navigation, screen-reader announcements, RTL,
+  high contrast, dyslexia-friendly type, and reduced-motion controls.
+
+The browser catalogue is generated from `src/curriculum_atlas.py`; the nine
+courses and 20 language overlays are not maintained as a second hand-written
+curriculum. Semantic similarity is deliberately limited to *alignment* and
+never treated as factual correctness unless a bounded exact checker succeeds.
+
+Run the companion locally:
+
+~~~bash
+python scripts/export_browser_catalog.py
+cd canopy-web
+npm install
+npm run dev
+~~~
+
+Browser release gate:
+
+~~~bash
+npm run lint
+npm run typecheck
+npm test
+npm run build
+~~~
+
 ## Twenty-language learning mode
 
 Language is an independent learner preference: switching it does not reset the
